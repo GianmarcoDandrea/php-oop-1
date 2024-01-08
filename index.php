@@ -2,8 +2,6 @@
 require_once __DIR__ . '/Models/Movie.php';
 require_once __DIR__ . '/DB/db.php';
 
-
-var_dump($movies);
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +15,17 @@ var_dump($movies);
 
 </head>
 <body>
+    <?php include __DIR__ . "/partials/header.php"; ?>
+
+
+
+
+
+
+
+
+    <?php include __DIR__ . "/partials/footer.php"; ?>
+
 
 
 </body>
