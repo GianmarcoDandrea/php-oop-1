@@ -1,12 +1,7 @@
 <?php 
 require_once __DIR__ . '/Models/Movie.php';
+require_once __DIR__ . '/DB/db.php';
 
-
-$movies = [
-    new Movie('The Lord Of The Rings - The Fellowship Of The Ring', '178 minutes', 'Fantasy', 'English', [9, 8, 8 ,8 ,9 ],'2001'),
-    new Movie('The Lord Of The Rings - The Two Towers', '179 minutes', 'Fantasy', 'English', [9, 9, 7 ,7 ,9 ]),
-    new Movie('The Lord Of The Rings - The Return of the King', '200 minutes', 'Fantasy', 'English', [9, 9, 10 ,10 ,9 ] ,'2003')
-];
 
 var_dump($movies);
 ?>
