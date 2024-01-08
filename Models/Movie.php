@@ -2,7 +2,7 @@
 class Movie {
     public $name;
     public $lenght;
-    public $genre;
+    public $genres;
     public $language;
     public $ratings;
     public $year;
@@ -12,11 +12,11 @@ class Movie {
         return($average);
     }
 
-    function __construct($_name, $_lenght, $_genre, $_language, $_ratings, $_year = "N/A")
+    function __construct($_name, $_lenght, $_genres, $_language, $_ratings, $_year = "N/A")
     {
         $this->name = ucfirst($_name);
         $this->lenght = $_lenght;
-        $this->genre = $_genre;
+        $this->genres = $_genres;
         $this->language = $_language;
         $this->ratings = $this->averageRatings($_ratings);
         $this->year = $_year;
