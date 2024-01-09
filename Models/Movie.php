@@ -20,9 +20,9 @@ class Movie {
     /**
      * @param string $_name
      * @param string $_lenght
-     * @param string $_genres
+     * @param Array $_genres
      * @param string $_language
-     * @param array $_ratings
+     * @param Array $_ratings
      * @param string $_year
      */
     function __construct($_name, $_lenght, $_genres, $_language, $_ratings, $_year = "N/A")
