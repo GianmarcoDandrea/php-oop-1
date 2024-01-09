@@ -33,7 +33,7 @@ require_once __DIR__ . '/DB/db.php';
         <tbody>
             <?php foreach ($movies as $movie) { ?>
                 <tr>
-                    <th scope="row"><?php echo $movie->name; ?></th>
+                    <td scope="row"><?php echo $movie->name; ?></td>
                     <td><?php echo $movie->lenght; ?></td>
                     <td>
                         <ul class="list-unstyled">
