@@ -37,7 +37,7 @@ require_once __DIR__ . '/DB/db.php';
                     <td><?php echo $movie->lenght; ?></td>
                     <td>
                         <ul class="list-unstyled">
-                            <?php foreach($movie->$genres as $genre) {?>
+                            <?php foreach($movie->genres as $genre) {?>
                                 <li>
                                     <?php echo $genre;?>
                                 </li>
