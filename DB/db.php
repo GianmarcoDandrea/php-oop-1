@@ -1,4 +1,6 @@
 <?php 
+require_once __DIR__ . '/../Models/Movie.php';
+
 $movies = [
     new Movie('The Lord Of The Rings - The Return of the King', '200 minutes', ['Fantasy', 'Adventure', 'Action'], 'English', [9, 9, 10 ,10 ,9 ] ,'2003'),
     new Movie('Van Helsing','145 minutes', ['Fantasy', 'Adventure', 'Horror', 'Action'], 'English', [9, 9, 7 ,7 ,9 ], ),
